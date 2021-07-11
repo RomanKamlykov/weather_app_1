@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import RootComponent from './RootComponent.vue'
 import router from './router'
 import store from './store'
 
-createApp(App).use(store).use(router).mount('#app')
+createApp(RootComponent).use(store).use(router).mount('#app')
